@@ -15,7 +15,7 @@ const InsertNewGames = () => {
     return(
         <div className="container-fluid">
             <header className="text-center text-bg-white text-danger p-2">
-                <h4 style={{border:"2px solid red"}} className="fs-7 fw-bolder font-monospace">Insert New Anime Details Here</h4>
+                <h4 style={{border:"2px solid red"}} className="fs-7 fw-bolder font-monospace">Insert New Game Details Here</h4>
             </header>
             <Container  maxWidth="md" className="mt-1">
                 <Container

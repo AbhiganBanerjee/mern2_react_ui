@@ -145,7 +145,7 @@ const GetAllAccess = ()=>{
     return(
         <div className="container-fluid">
             <header className="text-center p-2 text-bg-white text-danger">
-                <h4 style={{border:"2px solid red"}} className="fs-5 fst-italic fw-bolder font-monospace"><span className="bi bi-bag-heart-fill"> All Products Are Displyed Here</span></h4>
+                <h4 style={{border:"2px solid red"}} className="fs-5 fst-italic fw-bolder font-monospace"><span className="bi bi-bag-heart-fill"> All Accessories Are Displyed Here</span></h4>
             </header>
             <Container component="main" maxWidth="xs">
                 {/* Start the Card */}
