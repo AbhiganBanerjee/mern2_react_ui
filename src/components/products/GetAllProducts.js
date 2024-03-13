@@ -83,7 +83,7 @@ const GetAllProducts = ()=>{
         return(
             <Dialog open={openAlert} onClose={handleAlertClose}>
                 <DialogTitle className={!props ? "fw-bolder fs-5 fst-italic font-monospace text-bg-success" : "fw-bolder fs-5 fst-italic font-monospace text-bg-danger"}>{alertTitle}</DialogTitle>
-                <DialogContent className={!props ? "fw-bolder mt-3 font-monospace text-success" : "fw-bolder mt-3 font-monospace text-success"}>{alertContent}</DialogContent>
+                <DialogContent className={!props ? "fw-bolder mt-3 font-monospace text-success" : "fw-bolder mt-3 font-monospace text-danger"}>{alertContent}</DialogContent>
                 <DialogActions>
                     <IconButton color={!props ? "success" : "error"} onClick={handleAlertClose} ><Close/></IconButton>
                 </DialogActions>
